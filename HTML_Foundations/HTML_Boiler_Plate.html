@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiler Plate</title>
+</head>
+<body>
+    <h1>Boiler Plate</h1>
+
+    <p>
+        Every HTML document starts with a doctype declaration. This declaration is to tell the browser what<br>
+        HTML version to use. The latest version currently is HTML5 and this uses...
+    </p>
+
+    <code style="background-color: aqua; border: 2px black solid; border-radius: 8px; padding:3px;">&lt;!DOCTYPE html&gt;</code>
+
+    <p>
+        After declaring the doctype we need to provide a &lt;html&gt; element. This is what is known as the "Root"<br>
+        element of the document. Every other element of the document will be a decendent of this element.<br>
+        This becomes important when manipulating the document using Javascript but for now we just need to<br>
+        make sure its included in every HTML document.
+    </p>
+
+    <p>
+        The html element has an important "attribute" which needs to be included. This is the "Lang" attribute.<br>
+        The "lang" attribute specifies the language of the text content in that element. <br>
+        As its inside the HTML element with is the Root element, all decendent elements will inherit this<br>
+        language unless specified in the future seperately.
+    </p>
+
+    <p>
+        Attributes will be mentioned in more detail in the future.
+    </p>
+
+    <p>
+        The next element  in a boiler plate is the "&lt;head&gt;" element. The head element is were you put important<br>
+        meta information. Its the element to use to put stuff which helps render web pages correctly<br>
+        in the browser. We dont put anything in the head thats going to be displayed on the web page.
+    </p>
+
+    <p>
+        Inside the head element a "meta" element with charset encoding of the webpage needs to be in place.
+    </p>
+
+    <code style="background-color: aqua; border: 2px black solid; border-radius: 8px; padding: 8px">meta charset="UTF-8</code>
+
+    <p>
+        This helps the browser display special symbols and characters from other languages correctly.
+    </p>
+
+    <p>
+        The next element inside the head would be the "Title" element. This gives the user a human readable<br>
+        title for the webpage as opposed to the HTML documents file path being shown in the working tab<br>
+        of the browser. This helps navigate between multiple open tabs too is the user uses many at once.
+    </p>
+
+    <p>
+        There are more elements that go into the "Head" of a HTML document but for now these are the basics.
+    </p>
+
+    <p>
+        Moving on to the main compoment of the boiler plate... The 'Body' element!<br>
+        This element is were all the content that is displayed by the user is going to be placed like,<br>
+        The text of the document, images, links and so on... The body element is always placed after the head.
+    </p>
+
+    <h2>Example Boiler Plate</h2>
+
+    <code>
+        &lt;!DOCTYPE html&gt;<br>
+        &nbsp;&lt;html lang="en"&gt;<br>
+        &nbsp;&nbsp;&lt;head&gt;<br>
+        &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+        &nbsp;&nbsp;&nbsp;&lt;title&gt;My First Webpage&lt;/title&gt;<br>
+        &nbsp;&nbsp;&lt;/head&gt;<br>
+        <br>
+        <br>
+        &nbsp;&nbsp;&lt;body&gt;<br>
+        &nbsp;&nbsp;&lt;/body&gt;<br>
+        &nbsp;&lt;/html&gt;
+    </code>
+
+</body>
+</html>
+
+
+
+
+<!-- Code Background Styling -->
+<!-- style="background-color: aqua; border: 2px black solid; border-radius: 8px; padding: 8px" -->
